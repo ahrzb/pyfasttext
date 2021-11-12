@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "pyfasttext"
+version = "0.1.0"
+description = "A pure Python implementation of fasttext embeddings loading and inference with pytorch/numpy/onnx integrations."
+authors = ["AmirHossein Roozbazbahani <ahrzb5@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+black = "^21.10b0"
+isort = "^5.10.0"
+flake8-black = "^0.2.3"
+flake8-isort = "^4.1.1"
+flake8 = "^4.0.1"
+ipython = "^7.29.0"
+pytest = "^6.2.5"
+fasttext = "^0.9.2"
+hypothesis = "^6.24.2"
+torch = "^1.10.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
